@@ -1,0 +1,6 @@
+<ConditionalActions>
+  <Instantly>
+    <AddAsset FileName="Clock.exe" FileContents="#CLOCK_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin"/>
+    <RunFunction FunctionName="addFlags:pizzaFlag"/>
+  </Instantly>
+</ConditionalActions>
