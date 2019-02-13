@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="mission03end" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+</goals>
+<nextMission IsSilent="false">Missions/Credits.xml</nextMission>
+  <email>
+    <sender>Peter Parker</sender>
+    <subject>Well done</subject>
+    <body>MESSAGE FOR '#PLAYERNAME#'
+Well done. You've saved the world of pizza! You can now reply to this email and go back to your work.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

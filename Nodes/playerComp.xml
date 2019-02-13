@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<Computer id="playerComp"
+
+          name="#PLAYERNAME#'s Laptop"
+
+          allowsDefaultBootModule="false"
+
+          icon="laptop"
+
+          type="4">
+
+          
+
+<adminPass pass="pizzatime"/>
+
+
+
+<ports>21,22,25,80</ports>
+
+<portsForCrack val="4"/>
+
+
+
+<trace time="250"/>
+
+<proxy time="1.5"/>
+
+<firewall level="6" solution="cheese" additionalTime="0.25"/>
+
+
+
+<dlink target="pizza"/>
+
+
+
+<file path="home" name="reminder.txt">--- REMINDER ---
+
+Don't forget to watch 80.443.61.277 for pizza news.</file>
+
+<file path="home" name="important.txt">pizza</file>
+
+
+
+</Computer>

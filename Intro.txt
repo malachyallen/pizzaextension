@@ -1,0 +1,13 @@
+-----------------
+- PizzaOS v1.04 -
+-----------------
+Loading Boot config at /sys/bootcfg.dll......Done
+Boot sequence initiated.
+Loading OS config at /sys/os-config.sys..........Done
+Loading Network config at /sys/netcfgx.dll.............Done
+Loading UX Graphics config at /sys/x-server.sys.............Done
+--------------------------
+.
+.
+.
+Boot complete.

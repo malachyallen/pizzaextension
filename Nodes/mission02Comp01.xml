@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="mission02Comp01"
+	  name="Repository #135729"
+	  allowsDefaultBootModule="false"
+	  icon="chip"
+	  type="4">
+
+<admin type="progress"/>
+
+<ports>21,22,25,80</ports>
+<portsForCrack val="2"/>
+
+<trace time="275"/>
+<proxy time="1.2"/>
+<firewall level="4" solution="repo" additionalTime="0.25"/>
+
+<file path="home" name="TomatoSaucePoisonSchematics.zip">#BINARY#</file>
+
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+
+</Computer>

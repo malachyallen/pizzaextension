@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="mission03" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="clearfolder" target="pizzaBoss" path="home/Secret/PizzaPlans"/>
+  <goal type="clearfolder" target="pizzaBoss" path="sys"/>
+</goals>
+<nextMission IsSilent="false">Missions/Mission03End.xml</nextMission>
+  <email>
+    <sender>Peter Parker</sender>
+    <subject>Ending it all</subject>
+    <body>MESSAGE FOR '#PLAYERNAME#'
+I've found the central backup server for what could be the end of pizza as we know it.
+Go to the linked server, download the executable file in /bin/ and delete those files.
+Just to be safe, I'll need you to delete the files in /sys/ on that server as well.
+Remember to delete your logs!
+    </body>
+    <attachments>
+      <link comp="sequencerComp"/>
+    </attachments>
+  </email>
+</mission>

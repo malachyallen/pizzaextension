@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<Computer id="pizzaNews"
+          name="PizzaNews.net"
+
+          ip="80.443.61.277"
+
+          allowsDefaultBootModule="true"
+          icon="chip"
+
+          type="4">
+
+          
+
+<admin type="progress"/>
+
+
+
+<ports>21,22,25,80</ports>
+
+<portsForCrack val="4"/>
+
+
+
+<trace time="300"/>
+
+<proxy time="1.5"/>
+
+<firewall level="4" solution="news" additionalTime="0.25"/>
+
+
+
+<variableMissionListingServer name="PizzaNews.net" iconPath="PizzaNews.jpg" articleFolderPath="Docs/PizzaNewsArticles" color="255,122,30" assigner="false" public="true" title="PizzaNews.net"/>
+
+<file path="home" name="Bit.txt">Hello, it's Bit. I hope you guys are hungry, because here's the IP to the project website! Don't tell anyone I did this though, it's supposed to be strictly confidential.
+
+92.553.61.78</file>
+
+
+
+</Computer>

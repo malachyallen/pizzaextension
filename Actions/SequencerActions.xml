@@ -1,0 +1,16 @@
+<ConditionalActions>
+  <Instantly>
+    <RunFunction FunctionName="playCustomSongImmediatley:Music/PizzaSequencer.ogg"/>
+    <StartScreenBleedEffect AlertTitle="SEQUENCER ATTACK" TotalDurationSeconds="87.0" DelayHost="delayPC" Delay="4.0">Hack into the computer
+Delete pizza and system files
+Delete logs
+Terminate connection</StartScreenBleedEffect>
+    <SwitchToTheme ThemePathOrName="HacknetWhite" FlickerInDuration="3.0" DelayHost="delayPC" Delay="4.0"/>
+    <CrashComputer TargetComp="playerComp" CrashSource="bossPC" DelayHost="delayPC" Delay="87.0"/>
+    <CancelScreenBleedEffect DelayHost="delayPC" Delay="87.0"/>
+    <KillExe DelayHost="delayPC" Delay="87.0" ExeName="sequencer"/>
+    <HideNode DelayHost="delayPC" Delay="87.0" TargetComp="bossPC"/>
+    <SwitchToTheme ThemePathOrName="HacknetTeal" FlickerInDuration="2.0" DelayHost="delayPC" Delay="87.0"/>
+    <RunFunction FunctionName="playCustomSongImmediatley:Music/Pizza.ogg"/>
+  </Instantly>
+</ConditionalActions>

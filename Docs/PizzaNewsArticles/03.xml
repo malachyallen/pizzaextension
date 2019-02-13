@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<mission id="pizzaNews03" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Readers' Comments - 'Bit'" reqs="pizzaFlag" requiredRank="0">Readers' Comments - 'Bit'
+
+By PizzaNews.net Admins
+
+
+
+Welcome to the first of our Readers' Comments series where we pick out the best comments by our readers every week and show them in an article. Here's our pick of the week!
+
+
+
+Article: The perfect pizza?
+
+Name: To be known as 'Bit'
+
+Comment: I'm actually working on the technology for this and I'll send you guys some info. Great work on the article though. I loved reading it!
+
+
+
+Thank you, Bit, for your kind words!
+
+</posting>
+
+  <email>
+
+    <sender>NONE</sender>
+
+    <subject>NONE</subject>
+
+    <body>NONE</body>
+
+    <attachments>
+
+    </attachments>
+
+  </email>
+
+</mission>

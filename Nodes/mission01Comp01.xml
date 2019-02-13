@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="mission01Comp01"
+	  name="SecretPlan Repo"
+	  allowsDefaultBootModule="false"
+	  icon="chip"
+	  type="4">
+
+<admin type="progress"/>
+
+<ports>21,22,25,80</ports>
+<portsForCrack val="1"/>
+
+<file path="home" name="SecretPizzaPlans.zip">#BINARY#</file>
+<file path="home" name="SecretEnTechPlans.zip">#BINARY##BINARY#</file>
+<file path="home" name="SecretKellisBioTechPlans.zip">#BINARY##BINARY#</file>
+<file path="home" name="SecretEntropyPlans.zip">#BINARY##BINARY#</file>
+<file path="home" name="SecretElSecPlans.zip">#BINARY##BINARY#</file>
+<file path="home" name="SecretCSECPlans.zip">#BINARY##BINARY#</file>
+
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+
+</Computer>

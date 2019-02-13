@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="pizzaBoss"
+	  name="Pizza Repo #409"
+	  allowsDefaultBootModule="false"
+	  icon="chip"
+	  type="4">
+
+<admin type="fast" resetPassword="true" isSuper="true"/>
+
+<ports>21,22,25,80,1433</ports>
+<portsForCrack val="5"/>
+
+<trace time="-1"/>
+<proxy time="1.5"/>
+<firewall level="9" solution="PIZZATIME" additionalTime="0.25"/>
+
+<file path="home/Secret/PizzaPlans" name="PizzaPlansSchematic.zip">#BINARY##BINARY#</file>
+<file path="home/Secret/PizzaPlans" name="PizzaPlansApplication.zip">#BINARY#</file>
+<file path="home/Secret/PizzaPlans" name="PizzaPlansTOPSECRET.zip">#BINARY#</file>
+<file path="home/Secret/PizzaPlans" name="PizzaPlansApplicationSource.zip">#BINARY#</file>
+
+</Computer>

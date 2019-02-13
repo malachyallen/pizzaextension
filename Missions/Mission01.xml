@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="mission01" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="filedownload" target="mission01Comp01" file="SecretPizzaPlans.zip" path="home"/>
+  <goal type="fileupload" target="mission01Comp01" file="SecretPizzaPlans.zip" path="home" destTarget="uploadComp" destPath="Drop/Uploads"/>
+</goals>
+<nextMission IsSilent="false">Missions/Mission02.xml</nextMission>
+  <email>
+    <sender>Peter Parker</sender>
+    <subject>Re: PIZZA</subject>
+    <body>MESSAGE FOR '#PLAYERNAME#'
+Great job! Now download the file on the linked computer and upload it to the drop server.
+The file should be called something like 'secret plans' or something.
+    </body>
+    <attachments>
+      <link comp="mission01Comp01"/>
+      <link comp="uploadComp"/>
+    </attachments>
+  </email>
+</mission>

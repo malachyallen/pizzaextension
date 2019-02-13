@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<Computer id="pizza"
+
+          name="Pizza Repo"
+
+          allowsDefaultBootModule="false"
+
+          icon="chip"
+
+          type="4">
+
+          
+
+<admin type="progress"/>
+
+
+
+<ports>21,22,25,80</ports>
+
+<portsForCrack val="0"/>
+
+
+
+<file path="repo" name="001.rec">Why I think pizza rules
+
+By #PLAYERNAME#
+
+
+
+Pizza is great. Why? Because of the different parts that make it a pizza.
+
+
+Firstly the base. Thin and crispy or thick and soft? Then the sauce. What herbs should be in the sauce? After that there's the cheese. Cheddar? Mozarella? Manchego? Finally there's the toppings. Ham? Pineapple? Pepperoni? Sausage? More cheese?
+
+
+
+As evidenced by the reasons above, I conclude that pizza is the best food ever.</file>
+
+
+
+</Computer>

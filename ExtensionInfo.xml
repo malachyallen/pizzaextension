@@ -1,0 +1,48 @@
+<HacknetExtension>
+
+  <Language>en-us</Language>
+
+  <Name>Pizza</Name>
+
+  <AllowSaves>false</AllowSaves>
+
+  <StartingVisibleNodes>pizza</StartingVisibleNodes>
+
+  <StartingMission>Missions/StartingMission.xml</StartingMission>
+
+  <StartingActions>Actions/StartingActions.xml</StartingActions>
+
+  <Description>It's pizza time.</Description>
+
+  <StartsWithTutorial>False</StartsWithTutorial>
+
+  <HasIntroStartup>true</HasIntroStartup>
+
+  <StartingTheme>Themes/PizzaTheme.xml</StartingTheme>
+
+  <IntroStartupSong>Music/Pizza.ogg</IntroStartupSong>
+
+  <SequencerTargetID>pizzaBoss</SequencerTargetID>
+
+  <SequencerSpinUpTime>4.0</SequencerSpinUpTime>
+
+  <SequencerFlagRequiredForStart>pizzaFlag</SequencerFlagRequiredForStart>
+
+  <ActionsToRunOnSequencerStart>Actions/SequencerActions.xml</ActionsToRunOnSequencerStart>
+
+  <WorkshopDescription>Transcend into the ways of the pizza. (I beat you, Smartie!)
+
+
+Labyrinths is not required for this masterpiece.</WorkshopDescription>
+
+  <WorkshopLanguage>English</WorkshopLanguage>
+
+  <WorkshopVisibility>0</WorkshopVisibility>
+
+  <WorkshopTags>Extension</WorkshopTags>
+
+  <WorkshopPreviewImagePath>WorkshopLogo.jpg</WorkshopPreviewImagePath>
+
+  <WorkshopPublishID>NONE</WorkshopPublishID>
+
+</HacknetExtension>

@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<mission id="pizzaNews02" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Welcome to PizzaNews.net!" reqs="pizzaFlag" requiredRank="0">Welcome to PizzaNews.net!
+
+By PizzaNews.net Admins
+
+
+Hello fellow pizza lovers, and welcome to PizzaNews.net, the best source of information regarding the best thing in the world: pizzas.
+
+
+This news site will be updated with the hottest pizza news and of course, the readers' thoughts.
+
+
+Check back soon for our first news post by the one and only Richard Schmidt!
+</posting>
+
+  <email>
+
+    <sender>NONE</sender>
+
+    <subject>NONE</subject>
+
+    <body>NONE</body>
+
+    <attachments>
+
+    </attachments>
+  </email>
+
+</mission>

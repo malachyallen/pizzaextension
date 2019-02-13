@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<Computer id="pepperoniTechProjects"
+
+          name="PepperoniTech Projects"
+
+          ip="92.553.61.78"
+
+          allowsDefaultBootModule="true"
+
+          icon="chip"
+
+          type="4">
+
+          
+
+<admin type="none"/>
+
+
+
+<ports>21,22,25,80</ports>
+
+<portsForCrack val="9999"/>
+
+
+
+<variableMissionListingServer name="PepperoniTech Projects" iconPath="PepperoniTech.jpg" articleFolderPath="Docs/PepperoniTechProjectsArticles" color="255,0,0" assigner="false" public="true" title="PepperoniTech Projects"/>
+
+
+
+</Computer>

@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<mission id="pizzaNews01" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="The perfect pizza?" reqs="pizzaFlag" requiredRank="0">The perfect pizza?
+
+By Richard Schmidt
+
+
+
+We've all eaten the 'perfect pizza', but that's just opinion. Everyone's been thinking it: 'When will someone make a pizza that EVERYONE likes?'.
+Well, that question is answered today by PepperoniTech, a leading biotech company that has just released a patent to the public that could change how we make pizza. 'BioPizza' is created using a special machine no bigger than a 15-inch laptop, and looks like a regular cheese and tomato pizza but takes on the taste of whatever you want via input on the machine.
+
+
+
+We'll report with an update to confirm more details soon, but for now, why not discuss this in the comments?
+
+</posting>
+
+  <email>
+
+    <sender>NONE</sender>
+
+    <subject>NONE</subject>
+
+    <body>NONE</body>
+
+    <attachments>
+
+    </attachments>
+
+  </email>
+
+</mission>

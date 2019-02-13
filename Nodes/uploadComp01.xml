@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="uploadComp"
+	  name="Upload Server Repo #142"
+	  allowsDefaultBootModule="true"
+	  icon="chip"
+	  type="3">
+
+<admin type="progress"/>
+
+<ports>21,22,25,80</ports>
+<portsForCrack val="1"/>
+
+<trace time="-1"/>
+<proxy time="-1"/>
+<firewall level="5" solution="tcpip" additionalTime="0.25"/>
+
+<uploadServerDaemon name="Upload Server Repo #142" folder="Drop" needsAuth="false" color="61,122,255"/>
+
+</Computer>

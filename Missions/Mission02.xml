@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="mission02" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="filedeletion" target="mission02Comp01" file="TomatoSaucePoisonSchematics.zip" path="home"/>
+</goals>
+<nextMission IsSilent="false">Missions/Mission03.xml</nextMission>
+  <email>
+    <sender>Peter Parker</sender>
+    <subject>Re: Re: PIZZA</subject>
+    <body>MESSAGE FOR '#PLAYERNAME#'
+Okay, now you need to delete a schematic for untraceable poison to be added to tomato sauce for pizzas.
+    </body>
+    <attachments>
+      <link comp="mission02Comp01"/>
+    </attachments>
+  </email>
+</mission>

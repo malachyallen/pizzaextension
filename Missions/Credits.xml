@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="credits" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+</goals>
+<nextMission IsSilent="false">Missions/Secret.xml</nextMission>
+  <email>
+    <sender>Samaritan</sender>
+    <subject>Credits</subject>
+    <body>Hey #PLAYERNAME#,
+If you're reading this then either you have finished the game or are looking through the files.
+Go and check out the credits server linked here!
+    </body>
+    <attachments>
+      <link comp="creditsComp"/>
+    </attachments>
+  </email>
+</mission>

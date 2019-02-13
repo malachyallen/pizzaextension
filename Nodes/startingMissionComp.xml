@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Computer id="startingMissionComp"
+	  name="PizzaHater's PC"
+	  allowsDefaultBootModule="false"
+	  icon="chip"
+	  type="4">
+
+<admin type="progress"/>
+
+<ports>21,22,25,80</ports>
+<portsForCrack val="1"/>
+
+<file path="home" name="PizzaSucks.zip">#BINARY#</file>
+
+<file path="home" name="note.txt">I recently downloaded a new program called SSHCrack.exe but need to figure out how it works.</file>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+
+</Computer>

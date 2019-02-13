@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="pepperoniTechProjects01" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+</goals>
+<nextMission IsSilent="false">NONE</nextMission>
+<posting title="" reqs="pizzaFlag" requiredRank="0">BioPizza and its technology
+By Bit
+
+Some pizzas will never be forgotten, like the one you might have had at a restaurant or abroad, but how can you have one that tastes the same as the one you had in Italy without leaving the country?
+With PepperoniTech, this is possible. Using our new BioPizza technology, you can use a special machine to create the perfect pizza that you've always wanted.
+
+Look out for our new range of pizza machines, releasing next year!
+</posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mission id="startingMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+  <goal type="getadmin" target="startingMissionComp"/>
+  <goal type="filedeletion" target="startingMissionComp" file="PizzaSucks.zip" path="home"/>
+</goals>
+<nextMission IsSilent="false">Missions/Mission01.xml</nextMission>
+  <email>
+    <sender>Peter Parker</sender>
+    <subject>PIZZA</subject>
+    <body>MESSAGE FOR '#PLAYERNAME#'
+It's pizza time but someone is trying to make pizza sound terrible.
+Please hack into his computer and delete the data.
+    </body>
+    <attachments>
+      <link comp="startingMissionComp"/>
+    </attachments>
+  </email>
+</mission>
